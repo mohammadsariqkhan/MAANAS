@@ -752,12 +752,12 @@ video {
   border-radius: 0.75rem;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border {
   border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-b-4 {
@@ -935,8 +935,17 @@ video {
     margin-right: 15rem;
   }
 
+  .lg\:mx-\[12rem\] {
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+
   .lg\:h-\[80vh\] {
     height: 80vh;
+  }
+
+  .lg\:h-screen {
+    height: 100vh;
   }
 
   .lg\:w-1\/2 {
